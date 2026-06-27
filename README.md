@@ -142,25 +142,14 @@ Player (abstract base)
 - Average move calculation: ~100ms - 500ms (varies by board state)
 - Transposition table reduces move evaluation time by ~40-60%
 - Bitboard operations provide ~100x faster state comparison vs. standard 2D arrays
-
-## Future Enhancements
-
-- [ ] Iterative deepening for time-limited moves
-- [ ] Opening book for optimal first moves
-- [ ] Endgame tablebase for perfect play
-- [ ] GUI with graphical board rendering
-- [ ] Network play support
-- [ ] Move time controls
-- [ ] Game replay/analysis
-
+  
 ## License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
-Dan948142
-
+Sanskar Sovitkar
 ---
 
 **Note:** This is an HPC (High-Performance Computing) optimized implementation of Connect Four, showcasing advanced algorithms and optimization techniques for competitive game AI.
